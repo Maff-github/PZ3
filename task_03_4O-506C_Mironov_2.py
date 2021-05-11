@@ -165,7 +165,6 @@ if __name__ == '__main__':
 
     #Построение графика
     plt.plot(f, spectrum /numpy.max(spectrum))
-    plt.grid
     plt.xlim(0, 7e9)
     plt.xlabel('Частота, Гц')
     plt.ylabel(r'$\frac{|P|}{P_{max}}$')
